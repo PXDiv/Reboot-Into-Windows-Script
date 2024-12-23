@@ -72,8 +72,11 @@ fi
 
 # Update GRUB configuration
 echo -e "${CYAN}Updating GRUB configuration...${RESET}"
-sed -i 's/^GRUB_DEFAULT=.*$/# GRUB_DEFAULT=0\nGRUB_DEFAULT=saved/' /etc/default/grub
-sed -i 's/^#GRUB_TIMEOUT=.*/GRUB_TIMEOUT=3/' /etc/default/grub
+sed -i 's/^GRUB_HIDDEN_TIMEOUT/#GRUB_HIDDEN_TIMEOUT/' /etc/default/grub
+sed -i 's/^GRUB_HIDDEN_TIMEOUT_QUIET/#GRUB_HIDDEN_TIMEOUT_QUIET/' /etc/default/grub
+sed -i 's/^GRUB_TIMEOUT=.*/GRUB_TIMEOUT=3/' /etc/default/grub
+sed -i 's/^GRUB_TIMEOUT_STYLE=hidden/#GRUB_TIMEOUT_STYLE=hidden/' /etc/default/grub
+
 $GRUB_UPDATE_CMD
 
 # Identify Windows GRUB entry
