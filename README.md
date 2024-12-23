@@ -22,18 +22,37 @@ This script allows Linux users with GRUB as the bootloader to reboot directly in
 ## Installation Instructions
 
 1. **Download the Script**
+    Download the zip via Github (or directly via git in terminal if you know how to do so)
+    ![1](https://github.com/user-attachments/assets/1fa90563-2646-49d2-8290-dd611111553d)
+   
+    Access the Download Location and Extract the Zip file.
+   
+    Then Navigate to the folder where the script is located
 
-    Navigate to the folder where the script is located:
+3. **Run the Script**
 
-2. **Run the Script**
+   Go to the properties of the script to allow it to be executed
+    ![2](https://github.com/user-attachments/assets/252271d5-67bb-4c56-ac1e-9e0964752b33)
 
-    Run the script using the terminal by opening a new Terminal Window and dragging the script into the Terminal:
+   Turn on "Execute as Program"
+    ![3](https://github.com/user-attachments/assets/ed2aa3be-58c5-4d52-a7b4-1c693cd71f8b)
 
-    The script will ask for your password to make necessary system changes (like updating GRUB and creating files in `/opt`).
 
-3. **After the Installation**
+   Now Right Click and Run as Program
+   ![4](https://github.com/user-attachments/assets/2cf9ab23-b030-4ba5-9815-c8687378ea6b)
 
-    The Script will automatically place a shortcut on your desktop, Allow the Shortcut to be executed and double click the shortcut to now run it.
+   ![5](https://github.com/user-attachments/assets/19c2a738-2751-4db4-a6e2-30ef47be915b)
+   
+   The script will ask for your password to make necessary system changes (like updating GRUB and creating files in `/opt`).
+
+5. **After the Installation**
+    ![6](https://github.com/user-attachments/assets/18679c49-9da3-4282-930b-67834a343af4)
+
+   The Script will automatically place a shortcut on your desktop
+   
+    ![7](https://github.com/user-attachments/assets/e7d54f84-05cc-4ff7-8038-c8a93b64b835)
+
+    Allow the Shortcut to be executed and double click the shortcut to now run it.
 
 ## How the Script Works
 
